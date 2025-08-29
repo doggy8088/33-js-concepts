@@ -113,17 +113,17 @@
 
 <hr>
 
-## 1. Call Stack
+## 1. 呼叫堆疊
 
-<p>The call stack is a mechanism that the JavaScript interpreter uses to keep track of function execution within a program. In JavaScript, functions are executed in the order they are called. The call stack follows the Last In, First Out (LIFO) principle, meaning that the last function pushed onto the stack is the first one to be executed.</p>
+<p>呼叫堆疊是 JavaScript 直譯器用來追蹤程式中函式執行的機制。在 JavaScript 中，函式會按照被呼叫的順序執行。呼叫堆疊遵循「後進先出」（LIFO）原則，這意味著最後被推入堆疊的函式會是第一個被執行的。</p>
 
-<p>According to the ECMAScript specification, the call stack is defined as part of the execution context. Whenever a function is called, a new execution context is created and placed at the top of the stack. Once the function completes, its execution context is removed from the stack, and control returns to the previous context. This helps manage synchronous code execution, as each function call must complete before the next one can begin.</p>
+<p>根據 ECMAScript 規範，呼叫堆疊被定義為執行環境的一部分。每當函式被呼叫時，就會建立一個新的執行環境並放置在堆疊頂端。一旦函式完成，其執行環境就會從堆疊中移除，控制權回到先前的環境。這有助於管理同步程式碼的執行，因為每個函式呼叫必須完成後，下一個才能開始。</p>
 
-### Reference
+### 參考資料
 
 -  [Call Stack — MDN](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
 
-### <img align="center" width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
+### <img align="center" width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> 文章
 
 -  [Understanding Javascript Call Stack, Event Loops — Gaurav Pandvia](https://medium.com/@gaurav.pandvia/understanding-javascript-function-executions-tasks-event-loop-call-stack-more-part-1-5683dea1f5ec)
 -  [Understanding the JavaScript Call Stack — Charles Freeborn](https://medium.freecodecamp.org/understanding-the-javascript-call-stack-861e41ae61d4)
@@ -133,7 +133,7 @@
 -  [How JavaScript Works Under The Hood: An Overview of JavaScript Engine, Heap and, Call Stack — Bipin Rajbhar](https://dev.to/bipinrajbhar/how-javascript-works-under-the-hood-an-overview-of-javascript-engine-heap-and-call-stack-1j5o)
 -  [The JS Call stack Explained in 9 minutes](https://www.youtube.com/watch?v=W8AeMrVtFLY) - Colt Steel (YouTube)
 
-### <img align="center" width="30" height="30" src="https://img.icons8.com/dusk/64/video.png" alt="video"/>  Videos
+### <img align="center" width="30" height="30" src="https://img.icons8.com/dusk/64/video.png" alt="video"/>  影片
 
 -  [Javascript: the Call Stack explained — Coding Blocks India](https://www.youtube.com/watch?v=w6QGEiQceOM)
 -  [The JS Call Stack Explained In 9 Minutes — Colt Steele](https://www.youtube.com/watch?v=W8AeMrVtFLY)
@@ -146,21 +146,21 @@
 -  [Learn the JavaScript Call Stack - codecupdev](https://www.youtube.com/watch?v=HXqXPGS96rw)
 -  [JavaScript Functions and the Call Stack | How does the Call stack work - Chidre'sTechTutorials](https://www.youtube.com/watch?v=P6H-T4cUDR4)
     
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ 回到目錄](#table-of-contents)**
 
 ---
 
-## 2. Primitive Types
+## 2. 原始型別
 
-<p>According to the ECMAScript specification, JavaScript has six primitive data types: string, number, bigint, boolean, undefined, and symbol. These types are immutable, meaning their values cannot be altered. There is also a special primitive type called null, which represents the intentional absence of any object value.</p>
+<p>根據 ECMAScript 規範，JavaScript 有六種原始資料型別：string、number、bigint、boolean、undefined 和 symbol。這些型別是不可變的，意味著它們的值無法被改變。還有一個特殊的原始型別叫做 null，它代表刻意不存在任何物件值。</p>
 
-<p>Primitive values are directly assigned to a variable, and when you manipulate a primitive type, you're working directly on the value. Unlike objects, primitives do not have properties or methods, but JavaScript automatically wraps primitive values with object counterparts when necessary (e.g., when calling methods on strings).</p>
+<p>原始值是直接指派給變數的，當您操作原始型別時，您是直接操作該值。與物件不同，原始型別沒有屬性或方法，但 JavaScript 會在必要時自動將原始值包裝成對應的物件（例如，在字串上呼叫方法時）。</p>
 
-### Reference
+### 參考資料
 
 -  [JavaScript data types and data structures — MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Primitive_values)
 
-### <img align="center" width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
+### <img align="center" width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> 文章
 
 -  [Primitive and Non-primitive data-types in JavaScript - GeeksforGeeks](https://www.geeksforgeeks.org/primitive-and-non-primitive-data-types-in-javascript)
 -  [How numbers are encoded in JavaScript — Dr. Axel Rauschmayer](http://2ality.com/2012/04/number-encoding.html)
@@ -174,7 +174,7 @@
 -  [Object to primitive conversion — JavaScript.Info](https://javascript.info/object-toprimitive)
 - [Methods of primitives - Javascript.info](https://javascript.info/primitives-methods)
 
-### <img align="center" width="30" height="30" src="https://img.icons8.com/dusk/64/video.png" alt="video"/>  Videos
+### <img align="center" width="30" height="30" src="https://img.icons8.com/dusk/64/video.png" alt="video"/>  影片
 
 - [JavaScript Reference vs Primitive Types — Academind](https://www.youtube.com/watch?v=9ooYYRLdg_g)
 - [JavaScript Primitive Types — Simon Sez IT](https://www.youtube.com/watch?v=HsbWQsSCE5Y)
@@ -185,17 +185,17 @@
 - [TIPOS DE DATOS PRIMITIVOS en JAVASCRIPT - La Cocina del Código](https://www.youtube.com/watch?v=cC65D2q5f8I)
 - [Data Type in JavaScript - ScholarHat](https://www.youtube.com/watch?v=aFDvBjVjCh8)
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ 回到目錄](#table-of-contents)**
 
 ---
 
-## 3. Value Types and Reference Types
+## 3. 值型別和參考型別
 
-<p>According to the ECMAScript specification, value types are stored directly in the location that the variable accesses. These include types like number, string, boolean, undefined, bigint, symbol, and null. When you assign a value type to a variable, the value itself is stored.</p>
+<p>根據 ECMAScript 規範，值型別是直接儲存在變數所存取位置的。這些包括 number、string、boolean、undefined、bigint、symbol 和 null 等型別。當您將值型別指派給變數時，儲存的是值本身。</p>
 
-<p>Reference types, on the other hand, are objects stored in the heap. Variables assigned to reference types actually store references (pointers) to the objects, not the objects themselves. When you assign a reference type to another variable, both variables reference the same object in memory.</p>
+<p>另一方面，參考型別是儲存在堆積中的物件。指派給參考型別的變數實際上儲存的是物件的參考（指標），而不是物件本身。當您將參考型別指派給另一個變數時，兩個變數都參考記憶體中的同一個物件。</p>
 
-### <img align="center" width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
+### <img align="center" width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> 文章
 
 -  [Explaining Value vs. Reference in Javascript — Arnav Aggarwal](https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0)
 -  [Primitive Types & Reference Types in JavaScript — Bran van der Meer](https://gist.github.com/branneman/7fb06d8a74d7e6d4cbcf75c50fec599c)
@@ -208,7 +208,7 @@
 -  [JavaScript Interview Prep: Primitive vs. Reference Types — Mike Cronin](https://dev.to/mostlyfocusedmike/javascript-interview-prep-primitive-vs-reference-types-3o4f)
 -  [JavaScript map vs. forEach: When to Use Each One - Sajal Soni](https://code.tutsplus.com/tutorials/javascript-map-vs-foreach-when-to-use-each-one--cms-38365)
 
-### <img align="center" width="30" height="30" src="https://img.icons8.com/dusk/64/video.png" alt="video"/>  Videos
+### <img align="center" width="30" height="30" src="https://img.icons8.com/dusk/64/video.png" alt="video"/>  影片
 
 - [Javascript Pass by Value vs Pass by Reference — techsith](https://www.youtube.com/watch?v=E-dAnFdq8k8)
 - [JavaScript Value vs Reference Types — Programming with Mosh](https://www.youtube.com/watch?v=fD0t_DKREbE)
@@ -216,17 +216,17 @@
 - [JavaScript - Reference vs Primitive Values/ Types - Academind](https://www.youtube.com/watch?v=9ooYYRLdg_g)
 - [Value Types and Reference Types in JavaScript - Programming with Mosh](https://www.youtube.com/watch?v=e-_mDyqm2oU)
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ 回到目錄](#table-of-contents)**
 
 ---
 
-## 4. Implicit, Explicit, Nominal, Structuring and Duck Typing
+## 4. 隱含、顯式、名義、結構化和鴨子型別
 
-<p>The ECMAScript specification defines JavaScript as a dynamically typed language, meaning that types are associated with values rather than variables, and type checking occurs at runtime. There are various ways JavaScript manages types:</p>
+<p>ECMAScript 規範將 JavaScript 定義為動態型別語言，這意味著型別與值相關聯而非變數，且型別檢查在執行時發生。JavaScript 管理型別有多種方式：</p>
 
-<p><strong>Implicit Typing (or Type Coercion):</strong> This occurs when JavaScript automatically converts one data type to another when required. For instance, JavaScript might convert a string to a number during an arithmetic operation. While this can simplify some code, it can also lead to unexpected results if not handled carefully.</p>
+<p><strong>隱含型別（或型別強制轉換）：</strong> 這發生在 JavaScript 需要時自動將一種資料型別轉換為另一種時。例如，JavaScript 可能在算術運算期間將字串轉換為數字。雖然這可以簡化某些程式碼，但如果處理不當，也可能導致意外的結果。</p>
 
-<p><strong>Explicit Typing:</strong> Unlike implicit typing, explicit typing involves manually converting a value from one type to another using functions like Number(), String(), or Boolean().</p>
+<p><strong>顯式型別：</strong> 與隱含型別不同，顯式型別涉及使用 Number()、String() 或 Boolean() 等函式手動將值從一種型別轉換為另一種型別。</p>
 
 <p><strong>Nominal Typing:</strong> JavaScript doesn't natively support nominal typing, where types are explicitly declared and checked. However, TypeScript, a superset of JavaScript, brings this feature to help catch type errors during development.</p>
 
