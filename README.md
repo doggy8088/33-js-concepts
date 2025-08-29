@@ -3,36 +3,37 @@
   <a href="https://github.com/leonardomso/33"><img src="github-image.png" alt="33 Concepts Every JS Developer Should Know"></a>
   <br>
     <br>
-  <strong>33 Concepts Every JavaScript Developer Should Know</strong>
+  <strong>每個 JavaScript 開發者都應該知道的 33 個概念</strong>
   <br><br>
 </h1>
 
 <div align="center">
   <p>
-    <a href="#introduction">Introduction</a> •
-    <a href="#community">Community</a> •
-    <a href="#table-of-contents">Table of Contents</a> •
-    <a href="#license">License</a>
+    <a href="#introduction">簡介</a> •
+    <a href="#community">社群</a> •
+    <a href="#table-of-contents">目錄</a> •
+    <a href="#license">授權</a>
   </p>
 </div>
 
 <div align="center">
-  <strong>🚀 Considered by GitHub as one of the <a href="https://blog.github.com/2018-12-13-new-open-source-projects/">top open source projects of 2018!</a></strong>
+  <strong>🚀 被 GitHub 視為 <a href="https://blog.github.com/2018-12-13-new-open-source-projects/">2018 年頂尖開源專案之一！</a></strong>
 </div>
 
-## Introduction 
+## 簡介
 
-This repository was created with the intention of helping developers master their concepts in JavaScript. It is not a requirement, but a guide for future studies. It is based on an article written by Stephen Curtis and you can read it [here](https://medium.com/@stephenthecurt/33-fundamentals-every-javascript-developer-should-know-13dd720a90d1).
+這個儲存庫是為了幫助開發者掌握 JavaScript 概念而建立的。這不是必須的要求，而是未來學習的指南。它基於 Stephen Curtis 撰寫的一篇文章，您可以在[這裡](https://medium.com/@stephenthecurt/33-fundamentals-every-javascript-developer-should-know-13dd720a90d1)閱讀。
 
-## Community
+## 社群
 
-Feel free to submit a PR by adding a link to your own recaps or reviews. If you want to translate the repo into your native language, please feel free to do so.
+歡迎透過添加您自己的總結或評論連結來提交 PR。如果您想將此儲存庫翻譯成您的母語，請隨時進行。
 
-All the translations for this repo will be listed below:
+此儲存庫的所有翻譯將列於下方：
 
 - [اَلْعَرَبِيَّةُ‎ (Arabic)](https://github.com/amrsekilly/33-js-concepts) — Amr Elsekilly
 - [Български (Bulgarian)](https://github.com/thewebmasterp/33-js-concepts) - thewebmasterp
 - [汉语 (Chinese)](https://github.com/stephentian/33-js-concepts) — Re Tian
+- [繁體中文 (Traditional Chinese)](https://github.com/doggy8088/33-js-concepts) — Will Huang
 - [Português do Brasil (Brazilian Portuguese)](https://github.com/tiagoboeing/33-js-concepts) — Tiago Boeing
 - [한국어 (Korean)](https://github.com/yjs03057/33-js-concepts.git) — Suin Lee
 - [Español (Spanish)](https://github.com/adonismendozaperez/33-js-conceptos) — Adonis Mendoza
@@ -74,41 +75,41 @@ All the translations for this repo will be listed below:
 
 <hr>
 
-## <img align="center" width="35" height="35" src="https://media4.giphy.com/media/3hoLIVAJYkz6T0Ichp/giphy.gif"> <a id="table-of-contents">Table of Contents</a>
+## <img align="center" width="35" height="35" src="https://media4.giphy.com/media/3hoLIVAJYkz6T0Ichp/giphy.gif"> <a id="table-of-contents">目錄</a>
 
-1. [**Call Stack**](#1-call-stack)
-2. [**Primitive Types**](#2-primitive-types)
-3. [**Value Types and Reference Types**](#3-value-types-and-reference-types)
-4. [**Implicit, Explicit, Nominal, Structuring and Duck Typing**](#4-implicit-explicit-nominal-structuring-and-duck-typing)
+1. [**呼叫堆疊**](#1-call-stack)
+2. [**原始型別**](#2-primitive-types)
+3. [**值型別和參考型別**](#3-value-types-and-reference-types)
+4. [**隱含、顯式、名義、結構化和鴨子型別**](#4-implicit-explicit-nominal-structuring-and-duck-typing)
 5. [**== vs === vs typeof**](#5--vs--vs-typeof)
-6. [**Function Scope, Block Scope and Lexical Scope**](#6-function-scope-block-scope-and-lexical-scope)
-7. [**Expression vs Statement**](#7-expression-vs-statement)
-8. [**IIFE, Modules and Namespaces**](#8-iife-modules-and-namespaces)
-9. [**Message Queue and Event Loop**](#9-message-queue-and-event-loop)
-10. [**setTimeout, setInterval and requestAnimationFrame**](#10-settimeout-setinterval-and-requestanimationframe)
-11. [**JavaScript Engines**](#11-javascript-engines)
-12. [**Bitwise Operators, Type Arrays and Array Buffers**](#12-bitwise-operators-type-arrays-and-array-buffers)
-13. [**DOM and Layout Trees**](#13-dom-and-layout-trees)
-14. [**Factories and Classes**](#14-factories-and-classes)
-15. [**this, call, apply and bind**](#15-this-call-apply-and-bind)
-16. [**new, Constructor, instanceof and Instances**](#16-new-constructor-instanceof-and-instances)
-17. [**Prototype Inheritance and Prototype Chain**](#17-prototype-inheritance-and-prototype-chain)
-18. [**Object.create and Object.assign**](#18-objectcreate-and-objectassign)
-19. [**map, reduce, filter**](#19-map-reduce-filter)
-20. [**Pure Functions, Side Effects, State Mutation and Event Propagation**](#20-pure-functions-side-effects-state-mutation-and-event-propagation)
-21. [**Closures**](#21-closures)
-22. [**High Order Functions**](#22-high-order-functions)
-23. [**Recursion**](#23-recursion)
-24. [**Collections and Generators**](#24-collections-and-generators)
+6. [**函式作用域、區塊作用域和詞法作用域**](#6-function-scope-block-scope-and-lexical-scope)
+7. [**表達式 vs 陳述式**](#7-expression-vs-statement)
+8. [**IIFE、模組和命名空間**](#8-iife-modules-and-namespaces)
+9. [**訊息佇列和事件迴圈**](#9-message-queue-and-event-loop)
+10. [**setTimeout、setInterval 和 requestAnimationFrame**](#10-settimeout-setinterval-and-requestanimationframe)
+11. [**JavaScript 引擎**](#11-javascript-engines)
+12. [**位元運算子、型別陣列和陣列緩衝區**](#12-bitwise-operators-type-arrays-and-array-buffers)
+13. [**DOM 和佈局樹**](#13-dom-and-layout-trees)
+14. [**工廠和類別**](#14-factories-and-classes)
+15. [**this、call、apply 和 bind**](#15-this-call-apply-and-bind)
+16. [**new、建構函式、instanceof 和實例**](#16-new-constructor-instanceof-and-instances)
+17. [**原型繼承和原型鏈**](#17-prototype-inheritance-and-prototype-chain)
+18. [**Object.create 和 Object.assign**](#18-objectcreate-and-objectassign)
+19. [**map、reduce、filter**](#19-map-reduce-filter)
+20. [**純函式、副作用、狀態變異和事件傳播**](#20-pure-functions-side-effects-state-mutation-and-event-propagation)
+21. [**閉包**](#21-closures)
+22. [**高階函式**](#22-high-order-functions)
+23. [**遞迴**](#23-recursion)
+24. [**集合和產生器**](#24-collections-and-generators)
 25. [**Promises**](#25-promises)
 26. [**async/await**](#26-asyncawait)
-27. [**Data Structures**](#27-data-structures)
-28. [**Expensive Operation and Big O Notation**](#28-expensive-operation-and-big-o-notation)
-29. [**Algorithms**](#29-algorithms)
-30. [**Inheritance, Polymorphism and Code Reuse**](#30-inheritance-polymorphism-and-code-reuse)
-31. [**Design Patterns**](#31-design-patterns)
-32. [**Partial Applications, Currying, Compose and Pipe**](#32-partial-applications-currying-compose-and-pipe)
-33. [**Clean Code**](#33-clean-code)
+27. [**資料結構**](#27-data-structures)
+28. [**昂貴的操作和大 O 記號**](#28-expensive-operation-and-big-o-notation)
+29. [**演算法**](#29-algorithms)
+30. [**繼承、多型和程式碼重用**](#30-inheritance-polymorphism-and-code-reuse)
+31. [**設計模式**](#31-design-patterns)
+32. [**部分應用、柯里化、組合和管道**](#32-partial-applications-currying-compose-and-pipe)
+33. [**乾淨程式碼**](#33-clean-code)
 
 <hr>
 
