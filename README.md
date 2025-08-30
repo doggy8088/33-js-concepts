@@ -1149,7 +1149,6 @@ ECMAScript 規範概述了三種主要的作用域類型：
 -  [Inheritance in JavaScript — Rupesh Mishra](https://hackernoon.com/inheritance-in-javascript-21d2b82ffa6f)
 -  [Simple Inheritance with JavaScript — David Catuhe](https://www.sitepoint.com/simple-inheritance-javascript/)
 -  [JavaScript — Inheritance, delegation patterns and Object linking — NC Patro](https://codeburst.io/javascript-inheritance-25fe61ab9f85)
--  [Object Oriented JavaScript: Polymorphism with examples — Knoldus Blogs](https://blog.knoldus.com/object-oriented-javascript-polymorphism-with-examples/)
 -  [Program Like Proteus — A beginner's guide to polymorphism in Javascript — Sam Galson](https://medium.com/yld-blog/program-like-proteus-a-beginners-guide-to-polymorphism-in-javascript-867bea7c8be2)
 -  [Object-oriented JavaScript: A Deep Dive into ES6 Classes — Jeff Mott](https://www.sitepoint.com/object-oriented-javascript-deep-dive-es6-classes/)
 -  [Unlocking the Power of Polymorphism in JavaScript: A Deep Dive](https://prototypr.io/post/unlocking-the-power-of-polymorphism-in-javascript-a-deep-dive)
